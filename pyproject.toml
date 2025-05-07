@@ -1,6 +1,6 @@
 [project]
 name = "twrap"
-version = "1.0.0"
+version = "1.0.1"
 description = "A CLI tool to wrap text"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -18,6 +18,12 @@ dependencies = []
 license-files = ["LICENSE"]
 
 scripts = { twrap = "twrap.cli:main" }
+
+[project.urls]
+homepage = "https://github.com/ece-mohammad/twrap"
+repository = "https://github.com/ece-mohammad/twrap"
+documentation = "https://github.com/ece-mohammad/twrap"
+"Bug Tracker" = "https://github.com/ece-mohammad/twrap/issues"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

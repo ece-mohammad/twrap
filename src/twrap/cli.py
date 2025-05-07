@@ -40,7 +40,7 @@ import textwrap
 from pathlib import Path
 from typing import Any, Dict
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 logger = log.getLogger(__name__)
 
